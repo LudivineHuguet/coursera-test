@@ -55,6 +55,8 @@ h1 {
   .container {
    display: flex;
    flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
   }
   #section1, #section2 {
     width: calc(50% - 10px); /* Equal width for first 2 sections */
