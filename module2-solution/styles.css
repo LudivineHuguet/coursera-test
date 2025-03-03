@@ -57,7 +57,7 @@ h1 {
    flex-wrap: wrap;
   }
   #section1, #section2 {
-    width: calc(50% - 20px); /* Equal width for first 2 sections */
+    width: calc(50% - 10px); /* Equal width for first 2 sections */
   }
   #section3 {
     width: calc(100% - 20px);
