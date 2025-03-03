@@ -12,70 +12,70 @@ body {
 
 h1 {
   text-align: center;
-  margin: 20px 0;
-  font-size: 1.75em; /* 75% larger than dummy text */
+  margin: 20px 0;
+  font-size: 1.75em; /* 75% larger than dummy text */
 }
 
 .container {
-  padding: 10px;
+  padding: 10px;
 }
 
 .section {
-  position: relative;
-  background-color: #f4f4f4;
-  border: 1px solid black;
-  margin: 10px;
-  padding: 40px 15px 15px 15px; /* Push text down to avoid overlapping title */
+  position: relative;
+  background-color: #f4f4f4;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 40px 15px 15px 15px; /* Push text down to avoid overlapping title */
 }
   
 .section-title {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px 20px;
-  border: 1px solid black;
-  font-size: 1.25em; /* 25% larger than dummy text */
-  background-color: #d3d3d3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 20px;
+  border: 1px solid black;
+  font-size: 1.25em; /* 25% larger than dummy text */
+  background-color: #d3d3d3;
 }
 
 /********** Desktop Large devices only **********/
 @media (min-width: 992px) {
   .section {
-    float: left;
+    float: left;
     border: 1px solid green;
-    width: calc(33.33% - 20px); /* Equal width for 3 sections */
-   }
+    width: calc(33.33% - 20px); /* Equal width for 3 sections */
+   }
   }
 
 /********** Tablet Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #section1, #section2 {
-    float: left;
-    width: calc(50% - 20px); /* Equal width for first 2 sections */
+    float: left;
+    width: calc(50% - 20px); /* Equal width for first 2 sections */
   }
   #section3 {
-    clear: both; /* Move to the next row */
-    width: calc(100% - 20px);
+    clear: both; /* Move to the next row */
+    width: calc(100% - 20px);
     }
   }
   
 /********** Mobile Small devices only **********/
 @media  (max-width: 767px) {
    .section {
-     width: calc(100% - 20px); /* Full width for all sections */
-    }
+   width: calc(100% - 20px); /* Full width for all sections */
+    }
   }
 
 /* Optional: Add unique background colors for section titles */
 #title1 {
-  background-color: #ffcccb; /* Light red */
+ background-color: #ffcccb; /* Light red */
 }
 
 #title2 {
-  background-color: #ff6666; /* Darker red */
-  color: white; /* Ensure text is readable */
+  background-color: #ff6666; /* Darker red */
+  color: white; /* Ensure text is readable */
 }
 
 #title3 {
-  background-color: #ffcc99; /* Light orange */  
+  background-color: #ffcc99; /* Light orange */  
 }
