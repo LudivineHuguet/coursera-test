@@ -50,7 +50,7 @@ h1 {
 /********** Tablet Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #section1, #section2 {
-    float: right;
+    float: left;
     width: calc(50% - 20px); /* Equal width for first 2 sections */
   }
   #section3 {
