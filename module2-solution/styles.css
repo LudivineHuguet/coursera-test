@@ -56,7 +56,6 @@ h1 {
   .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     align-items: stretch;
   }
 
@@ -68,7 +67,6 @@ h1 {
   #section3 {
     width: calc(100% - 20px); /* Full width for the third section */
     margin-top: 10px; /* Add margin to separate from the first row */
-    margin-left: 5px;
   }
 }
   
