@@ -55,24 +55,17 @@ h1 {
   .container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    align-items: stretch;
   }
 
   #section1, #section2 {
     width: calc(50% - 10px); /* Adjusted for margin */
-    margin-right: 10px; /* Add margin between sections */
-    box-sizing: border-box; /* Include padding and border in the width */
-  }
-
-  #section2 {
-    margin-right: 0; /* Remove margin for the last section in the row */
+    margin: 5px; /* Add margin between sections */
   }
 
   #section3 {
-    width: 100%; /* Full width for the third section */
+    width: calc(100% - 20px); /* Full width for the third section */
     margin-top: 20px; /* Add margin to separate from the first row */
-    box-sizing: border-box; /* Include padding and border in the width */
   }
 }
   
