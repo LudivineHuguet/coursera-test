@@ -40,8 +40,11 @@ h1 {
 
 /********** Desktop Large devices only **********/
 @media (min-width: 992px) {
+  .container {
+   display: flex;
+   justify-content: space-between;
+  }
   .section {
-    float: left;
     border: 1px solid green;
     width: calc(33.33% - 20px); /* Equal width for 3 sections */
    }
@@ -49,12 +52,15 @@ h1 {
 
 /********** Tablet Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .container {
+   display: flex;
+   flex-wrap: wrap;
+  }
   #section1, #section2 {
-    float: left;
     width: calc(50% - 20px); /* Equal width for first 2 sections */
   }
   #section3 {
-    clear: both; /* Move to the next row */
+    margin-top: 20px;
     width: calc(100% - 20px);
   }
 }
