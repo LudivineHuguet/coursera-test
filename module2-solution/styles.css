@@ -30,8 +30,8 @@ h1 {
   
 .section-title {
   position: absolute;
-  top: 1;
-  right: 1;
+  top: 0;
+  right: 0;
   padding: 5px 20px;
   border: 1px solid black;
   font-size: 1.25em; /* 25% larger than dummy text */
