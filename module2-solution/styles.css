@@ -55,7 +55,6 @@ h1 {
   .container {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
    align-items: flex-start;
   }
   #section1, #section2 {
