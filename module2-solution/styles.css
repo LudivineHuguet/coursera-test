@@ -60,7 +60,7 @@ h1 {
 
   #section1, #section2 {
     width: calc(50% - 40px); /* Adjusted for margin */
-    margin: 5px; /* Add margin between sections */
+    margin: 10px; /* Add margin between sections */
   }
 
   #section3 {
