@@ -55,17 +55,18 @@ h1 {
   .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: stretch;
   }
 
   #section1, #section2 {
-    width: calc(50% - 40px); /* Adjusted for margin */
-    margin: 10px; /* Add margin between sections */
+    width: calc(50% - 10px); /* Adjusted for margin */
+    margin: 5px; /* Add margin between sections */
   }
 
   #section3 {
     width: calc(100% - 20px); /* Full width for the third section */
-    margin-top: 20px; /* Add margin to separate from the first row */
+    margin-top: 10px; /* Add margin to separate from the first row */
   }
 }
   
