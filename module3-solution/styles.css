@@ -1,11 +1,5 @@
 /* Custom CSS for the navbar */
 .navbar {
-  --bs-navbar-color: #333; /* Override text color */
-  --bs-navbar-hover-color: #333; /* Override hover text color */
-  --bs-navbar-active-color: #333; /* Override active text color */
-  --bs-navbar-brand-color: #333; /* Override brand text color */
-  --bs-navbar-brand-hover-color: #333; /* Override brand hover text color */
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23333' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Override hamburger icon color */
   background-color: #959CA3 !important; /* Force dark grey background for the header */
   border: none; /* Remove default border */
 }
