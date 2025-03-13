@@ -67,7 +67,8 @@
   background-color: #f8f9fa; /* Light gray background */
   padding: 20px;
   margin: 20px 0;
-  height: 300px; /* Reduced height for the blocks */
+  height: auto; /* Make height responsive */
+  min-height: 300px; /* Set a minimum height */
   overflow: auto; /* Add scrollbar if content overflows */
   display: flex;
   flex-direction: column;
