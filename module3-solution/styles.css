@@ -1,6 +1,6 @@
 /* Custom CSS for the navbar */
 .navbar {
-  background-color: #f8f9fa; /* Light grey background */
+  background-color: #959CA3; /* Dark grey background for the header */
   border: none; /* Remove default border */
 }
 
@@ -19,7 +19,7 @@
 
 /* Dropdown menu for mobile view */
 .navbar-collapse {
-  background-color: #f8f9fa; /* Light grey background */
+  background-color: #959CA3; /* Light grey background */
   padding: 0; /* Remove padding */
   clear: both; /* Ensure it appears below the navbar */
 }
@@ -31,7 +31,7 @@
 
 .navbar-nav li {
   text-align: center; /* Center-align menu items */
-  border-bottom: 1px solid #ddd; /* Add a border between items */
+  border-bottom: 1px solid #495057; /* Add a border between items */
 }
 
 .navbar-nav li:last-child {
@@ -45,7 +45,7 @@
 
 /* Custom CSS for the tall section */
 .tall-section {
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #959CA3; /* darker gray background */
   padding: 20px;
   margin: 20px 0;
   height: auto; /* Make height responsive */
@@ -60,4 +60,5 @@
 /* Center the page heading */
 h1 {
   margin: 20px 0;
+  color: 959CA3; /* Darker grey text color for the heading */
 }
