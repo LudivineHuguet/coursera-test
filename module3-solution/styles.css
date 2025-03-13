@@ -68,11 +68,11 @@
   padding: 20px;
   margin: 20px 0;
   height: auto; /* Make height responsive */
-  min-height: 300px; /* Set a minimum height */
-  overflow: auto; /* Add scrollbar if content overflows */
+  min-height: 200px; /* Set a minimum height */
+  overflow: hidden; /* Prevent content overflow */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically */
+  justify-content: flex-start; /* Align content to the top */
   align-items: center; /* Center content horizontally */
 }
 
