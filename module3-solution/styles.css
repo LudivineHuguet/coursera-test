@@ -2,8 +2,8 @@
 .tall-section {
   background-color: #f8f9fa; /* Light gray background */
   padding: 20px;
-  height: 1000px; /* Make the section tall */
   margin: 20px 0;
+  height: 1000px; /* Make the section tall */
 }
 
 /* Custom CSS for the dropdown menu in mobile view */
