@@ -1,12 +1,11 @@
 /* Custom CSS for the navbar */
-.navbar {
+.bg-custom {
   background-color: #959CA3 !important; /* Force dark grey background for the header */
-  border: none; /* Remove default border */
 }
 
 .navbar-brand {
   font-weight: bold; /* Make the brand name bold */
-  color: var(--bs-navbar-brand-color) !important; /* Use overridden text color */
+  color: #333 !important; /* Dark grey text color */
 }
 
 /* Hamburger menu icon */
@@ -15,6 +14,14 @@
   background-color: transparent !important; /* Transparent background */
   float: right; /* Align to the right */
   margin-right: 15px; /* Add some margin */
+  display: none; /* Hide by default */
+}
+
+/* Show hamburger menu only in mobile view */
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: block; /* Show hamburger menu */
+  }
 }
 
 /* Dropdown menu for mobile view */
@@ -39,7 +46,7 @@
 }
 
 .navbar-nav a {
-  color: var(--bs-navbar-color) !important; /* Use overridden text color */
+  color: #333 !important; /* Dark grey text color */
   padding: 10px; /* Add padding */
 }
 
