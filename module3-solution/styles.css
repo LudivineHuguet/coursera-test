@@ -19,7 +19,7 @@
 
 /* Dropdown menu for mobile view */
 .navbar-collapse {
-  background-color: #959CA3; /* Light grey background */
+  background-color: #FFFFFF; /* White background */
   padding: 0; /* Remove padding */
   clear: both; /* Ensure it appears below the navbar */
 }
