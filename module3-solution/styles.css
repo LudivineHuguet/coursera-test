@@ -1,6 +1,6 @@
 /* Custom CSS for the navbar */
 .navbar-default {
-  background-color: #f8f9fa; /* Light grey background */
+  background-color: #d3d3d3; /* Light grey background */
   border: none; /* Remove default border */
 }
 
@@ -15,6 +15,7 @@
   background-color: transparent; /* Transparent background */
   float: right; /* Align to the right */
   margin-right: 15px; /* Add some margin */
+  display: none; /* Hide by default */
 }
 
 .navbar-toggle .icon-bar {
@@ -23,6 +24,13 @@
   width: 22px;
   height: 2px;
   margin: 4px 0; /* Spacing between bars */
+}
+
+/* Show hamburger menu only in mobile view */
+@media (max-width: 767px) {
+  .navbar-toggle {
+    display: block; /* Show hamburger menu */
+  }
 }
 
 /* Hide "Toggle Navigation" text */
