@@ -1,3 +1,49 @@
+/* Custom CSS for the navbar */
+.navbar-default {
+  background-color: #f8f9fa; /* Light grey background */
+  border: none; /* Remove default border */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make the brand name bold */
+  color: #333; /* Dark grey text color */
+}
+
+/* Hamburger menu icon */
+.navbar-toggle {
+  border: none; /* Remove border */
+  background-color: transparent; /* Transparent background */
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #333; /* Dark grey color for the bars */
+}
+
+/* Dropdown menu for mobile view */
+.navbar-collapse {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 0; /* Remove padding */
+}
+
+.navbar-nav {
+  width: 100%; /* Full width */
+  margin: 0; /* Remove margin */
+}
+
+.navbar-nav li {
+  text-align: center; /* Center-align menu items */
+  border-bottom: 1px solid #ddd; /* Add a border between items */
+}
+
+.navbar-nav li:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+.navbar-nav a {
+  color: #333; /* Dark grey text color */
+  padding: 10px; /* Add padding */
+}
+
 /* Custom CSS for the tall section */
 .tall-section {
   background-color: #f8f9fa; /* Light gray background */
@@ -9,23 +55,6 @@
   flex-direction: column;
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
-}
-
-/* Custom CSS for the dropdown menu in mobile view */
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-  background-color: #e9ecef; /* Light background for dropdown */
-}
-
-.navbar-nav li {
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid #ccc; /* Add a border between items */
-}
-
-.navbar-nav li:last-child {
-  border-bottom: none; /* Remove border for the last item */
 }
 
 /* Center the page heading */
