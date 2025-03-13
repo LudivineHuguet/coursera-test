@@ -49,6 +49,7 @@
 .navbar-collapse {
   background-color: #f8f9fa; /* Light grey background */
   padding: 0; /* Remove padding */
+  clear: both; /* Ensure it appears below the navbar */
 }
 
 .navbar-nav {
