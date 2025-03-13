@@ -1,1 +1,29 @@
+/* Custom CSS for the tall section */
+.tall-section {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  height: 1000px; /* Make the section tall */
+  margin: 20px 0;
+}
 
+/* Custom CSS for the dropdown menu in mobile view */
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  background-color: #e9ecef; /* Light background for dropdown */
+}
+
+.navbar-nav li {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add a border between items */
+}
+
+.navbar-nav li:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+/* Center the page heading */
+h1 {
+  margin: 20px 0;
+}
